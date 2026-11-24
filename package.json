@@ -1,0 +1,17 @@
+{
+  "name": "clip-studio",
+  "version": "1.0.0",
+  "description": "Painel local que transforma vídeos longos do YouTube em cortes curtos com IA e publica no YouTube",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning src/server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
